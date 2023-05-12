@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\bin\Debug\net6.0\ChiefsCorner.Management.Service.deps.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\bin\Debug\net6.0\ChiefsCorner.Management.Service.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\bin\Debug\net6.0\ChiefsCorner.Management.Service.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\obj\Debug\net6.0\ChiefsCorner.Management.Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\obj\Debug\net6.0\ChiefsCorner.Management.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\obj\Debug\net6.0\ChiefsCorner.Management.Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\obj\Debug\net6.0\ChiefsCorner.Management.Service.AssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\obj\Debug\net6.0\ChiefsCorner.Management.Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\obj\Debug\net6.0\ChiefsCorner.Management.Service.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\obj\Debug\net6.0\refint\ChiefsCorner.Management.Service.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\obj\Debug\net6.0\ChiefsCorner.Management.Service.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC-ChiefsCorner\MVC-ChiefsCorner\ChiefsCorner.Management.Service\obj\Debug\net6.0\ref\ChiefsCorner.Management.Service.dll
