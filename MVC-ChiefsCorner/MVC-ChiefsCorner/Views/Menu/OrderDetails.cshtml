@@ -1,0 +1,33 @@
+﻿@model Order
+
+<h1>Sipariş Detayları</h1>
+
+<p>Sipariş Zamanı: @Model.OrderTime</p>
+<p>Kullanıcı: @Model.User.UserName</p>
+
+<h3>Menüler</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Menü Adı</th>
+            <th>Fiyatı</th>
+            <th>Boyut</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var orderMenu in Model.OrderMenus)
+        {
+            <tr>
+                <td>@orderMenu.Menu.Name</td>
+                <td>@orderMenu.Menu.Price</td>
+                <td>@orderMenu.Size</td>
+                <td>
+                    <a href="@Url.Action("UpdateOrderMenu", new { orderMenuId = orderMenu.Id, newSize = Size.Large, orderId = Model.Id })">Boyutu Güncelle</a> |
+                    <a href="@Url.Action("RemoveFromOrder", new { orderMenuId = orderMenu.Id, orderId = Model.Id })">Siparişten Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

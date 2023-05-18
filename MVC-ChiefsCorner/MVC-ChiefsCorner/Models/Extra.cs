@@ -11,7 +11,7 @@ namespace MVC_ChiefsCorner.Models
         [StringLength(50, ErrorMessage = "Extra name cannot be longer than 50 characters")]
         public string Name { get; set; }
         public decimal Price { get; set; }
-        public virtual ICollection<OrderExtra> OrderExtras { get; set; }
+        //public virtual ICollection<OrderExtra> OrderExtras { get; set; }
         public virtual ICollection<MenuExtra> MenuExtras { get; set; }
     }
 }

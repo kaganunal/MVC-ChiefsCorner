@@ -1,0 +1,21 @@
+﻿@model MVC_ChiefsCorner.Models.OrderMenu
+
+<h1>Menü Boyutunu Güncelle</h1>
+
+<form asp-action="UpdateOrderMenu">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="OrderId" />
+
+    <div class="form-group">
+        <label for="newSize">Yeni Boyut:</label>
+        <select id="newSize" name="newSize" class="form-control">
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+    </div>
+</form>

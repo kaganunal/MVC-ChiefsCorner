@@ -8,7 +8,6 @@
         public string UserId { get; set; }
         public virtual AppUser User { get; set; }
         public virtual ICollection<OrderMenu> OrderMenus { get; set; }
-        public virtual ICollection<OrderExtra> OrderExtras { get; set; }
 
     }
 }

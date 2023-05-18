@@ -9,7 +9,7 @@
         public int MenuId { get; set; }
         public virtual Menu Menu { get; set; }
         public Size Size { get; set; }
-        public virtual ICollection<OrderExtra> OrderExtras { get; set; }
+        //public virtual ICollection<OrderExtra> OrderExtras { get; set; }
 
         //OrderMenu class'ında OrderExtra ICollection'u, sipariş verilen menüye ekstra malzemeler eklemek için kullanılır. Yani bir siparişteki her bir menüye ekstra malzemeler eklenebilir ve bu bilgiler OrderExtra tablosunda tutulur. Örneğin, bir kişi büyük boy pizza siparişi verdiğinde, ekstra mantar, zeytin ve peynir eklemek isteyebilir. Bu durumda OrderExtra tablosu, siparişin hangi menüsüne (pizza) hangi ekstraların eklendiğini, kaç adet ekstra eklenildiğini vb. bilgileri tutar.
     }

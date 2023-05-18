@@ -24,12 +24,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/Menu/AddToOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxBZGRUb09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/Menu/MenuDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/Menu/MenuList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/Menu/OrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxPcmRlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/Menu/UpdateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxVcGRhdGVPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/User/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/User/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/Bilge Adam/GitHub/MVC-ChiefsCorner/MVC-ChiefsCorner/MVC-ChiefsCorner/Views/_ViewImports.cshtml]

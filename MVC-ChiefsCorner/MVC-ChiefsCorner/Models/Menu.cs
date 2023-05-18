@@ -9,7 +9,11 @@ namespace MVC_ChiefsCorner.Models
         [Required(ErrorMessage = "Menu name is required")]
         [StringLength(50, ErrorMessage = "Menu name cannot be longer than 50 characters")]
         public string Name { get; set; }
+        [RegularExpression(@"^\d+(\.\d{1,2})?$")]
+        [Range(0, 9999)]
         public decimal Price { get; set; }
+        public string? Description { get; set; }
+        public string ImagePath { get; set; }
         [Required(ErrorMessage = "Menu category is required")]
         public int MenuCategoryId { get; set; }
         public virtual MenuCategory MenuCategory { get; set; }

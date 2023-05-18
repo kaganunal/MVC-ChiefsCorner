@@ -5,12 +5,896 @@
       "PackagePath": "staticwebassets\\MVC-ChiefsCorner.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\about-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\about-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\about-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\about-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\bg-hero.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\hero.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\logoSmall.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logoSmall.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\menu-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\menu-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\menu-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\menu-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\menu-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\img\\video.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\assets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\assets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\CHEF'S Corner.png",
+      "PackagePath": "staticwebassets\\images\\CHEF'S Corner.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\alaturcaPizza.png",
+      "PackagePath": "staticwebassets\\images\\alaturcaPizza.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\asiaSalmonSalad.png",
+      "PackagePath": "staticwebassets\\images\\asiaSalmonSalad.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\avocadoPoachedEggs.png",
+      "PackagePath": "staticwebassets\\images\\avocadoPoachedEggs.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\bbqCheddarBurger.png",
+      "PackagePath": "staticwebassets\\images\\bbqCheddarBurger.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\bbqChickenBun.png",
+      "PackagePath": "staticwebassets\\images\\bbqChickenBun.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\bbqChickenBurger.png",
+      "PackagePath": "staticwebassets\\images\\bbqChickenBurger.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\bbqChickenPizza.png",
+      "PackagePath": "staticwebassets\\images\\bbqChickenPizza.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\beefCarpaccioPizza.png",
+      "PackagePath": "staticwebassets\\images\\beefCarpaccioPizza.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\beefCutlet.png",
+      "PackagePath": "staticwebassets\\images\\beefCutlet.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\beefFajita.png",
+      "PackagePath": "staticwebassets\\images\\beefFajita.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\beefWithMushroomSauce.png",
+      "PackagePath": "staticwebassets\\images\\beefWithMushroomSauce.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\bezirganiPizza.png",
+      "PackagePath": "staticwebassets\\images\\bezirganiPizza.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\bigBigBurger.png",
+      "PackagePath": "staticwebassets\\images\\bigBigBurger.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\ceasarSalad.png",
+      "PackagePath": "staticwebassets\\images\\ceasarSalad.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\cheesyFrenchFries.png",
+      "PackagePath": "staticwebassets\\images\\cheesyFrenchFries.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\cheesyToast.png",
+      "PackagePath": "staticwebassets\\images\\cheesyToast.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chickenCurry.png",
+      "PackagePath": "staticwebassets\\images\\chickenCurry.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chickenCutlets.png",
+      "PackagePath": "staticwebassets\\images\\chickenCutlets.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chickenFajitas.png",
+      "PackagePath": "staticwebassets\\images\\chickenFajitas.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chickenInTeriyakiSauce.png",
+      "PackagePath": "staticwebassets\\images\\chickenInTeriyakiSauce.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chickenSchnitzel.png",
+      "PackagePath": "staticwebassets\\images\\chickenSchnitzel.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chilledLemonCake.png",
+      "PackagePath": "staticwebassets\\images\\chilledLemonCake.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chocalateSouffles.png",
+      "PackagePath": "staticwebassets\\images\\chocalateSouffles.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\comboFajita.png",
+      "PackagePath": "staticwebassets\\images\\comboFajita.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\crispyChickenSalad.png",
+      "PackagePath": "staticwebassets\\images\\crispyChickenSalad.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\crispyChocalateCake.png",
+      "PackagePath": "staticwebassets\\images\\crispyChocalateCake.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\crispyManti.png",
+      "PackagePath": "staticwebassets\\images\\crispyManti.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\crunchyChickenBurger.png",
+      "PackagePath": "staticwebassets\\images\\crunchyChickenBurger.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\deepFriedChickenPieces.png",
+      "PackagePath": "staticwebassets\\images\\deepFriedChickenPieces.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\devilsFoodCake.png",
+      "PackagePath": "staticwebassets\\images\\devilsFoodCake.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\falafel.png",
+      "PackagePath": "staticwebassets\\images\\falafel.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\farmersBreakfast.png",
+      "PackagePath": "staticwebassets\\images\\farmersBreakfast.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\fettuccineAlfredo.png",
+      "PackagePath": "staticwebassets\\images\\fettuccineAlfredo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\fettuccineWithSmokedTomatoSauce.png",
+      "PackagePath": "staticwebassets\\images\\fettuccineWithSmokedTomatoSauce.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\flatbreadToast.png",
+      "PackagePath": "staticwebassets\\images\\flatbreadToast.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\fourCheesesPizza.png",
+      "PackagePath": "staticwebassets\\images\\fourCheesesPizza.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\friedEggs.png",
+      "PackagePath": "staticwebassets\\images\\friedEggs.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\friedEggsWithPotato.png",
+      "PackagePath": "staticwebassets\\images\\friedEggsWithPotato.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\friedEggsWithSucuk.png",
+      "PackagePath": "staticwebassets\\images\\friedEggsWithSucuk.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\friedGoatCheeseSalad.png",
+      "PackagePath": "staticwebassets\\images\\friedGoatCheeseSalad.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\gardenSalaf.png",
+      "PackagePath": "staticwebassets\\images\\gardenSalaf.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\gingerChiliPrawns.png",
+      "PackagePath": "staticwebassets\\images\\gingerChiliPrawns.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\granola.png",
+      "PackagePath": "staticwebassets\\images\\granola.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\grilledBeefBowl.png",
+      "PackagePath": "staticwebassets\\images\\grilledBeefBowl.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\grilledEntrecote.png",
+      "PackagePath": "staticwebassets\\images\\grilledEntrecote.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\grilledSeaBass.png",
+      "PackagePath": "staticwebassets\\images\\grilledSeaBass.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\hastySalty.png",
+      "PackagePath": "staticwebassets\\images\\hastySalty.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\homeStyleBreakfast.png",
+      "PackagePath": "staticwebassets\\images\\homeStyleBreakfast.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\iceCream.png",
+      "PackagePath": "staticwebassets\\images\\iceCream.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\kebabi.png",
+      "PackagePath": "staticwebassets\\images\\kebabi.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\margaritaPizza.png",
+      "PackagePath": "staticwebassets\\images\\margaritaPizza.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\meatBallsBun.png",
+      "PackagePath": "staticwebassets\\images\\meatBallsBun.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\meatballWithFlatBread.png",
+      "PackagePath": "staticwebassets\\images\\meatballWithFlatBread.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\menemen.png",
+      "PackagePath": "staticwebassets\\images\\menemen.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\mexicanBurger.png",
+      "PackagePath": "staticwebassets\\images\\mexicanBurger.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\mexicanChicken.png",
+      "PackagePath": "staticwebassets\\images\\mexicanChicken.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\mexicanNachos.png",
+      "PackagePath": "staticwebassets\\images\\mexicanNachos.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\mixCheesePlate.png",
+      "PackagePath": "staticwebassets\\images\\mixCheesePlate.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\mushroomPizza.png",
+      "PackagePath": "staticwebassets\\images\\mushroomPizza.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\mushroomStuffedFalafel.png",
+      "PackagePath": "staticwebassets\\images\\mushroomStuffedFalafel.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\omelette.png",
+      "PackagePath": "staticwebassets\\images\\omelette.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\orangeFlavoredGrilledSalmon.png",
+      "PackagePath": "staticwebassets\\images\\orangeFlavoredGrilledSalmon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\penneArabiata.png",
+      "PackagePath": "staticwebassets\\images\\penneArabiata.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\pestoRossoPasta.png",
+      "PackagePath": "staticwebassets\\images\\pestoRossoPasta.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\quinoaSalad.png",
+      "PackagePath": "staticwebassets\\images\\quinoaSalad.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\redLentilPasta.png",
+      "PackagePath": "staticwebassets\\images\\redLentilPasta.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\redLentilPastaVegan.png",
+      "PackagePath": "staticwebassets\\images\\redLentilPastaVegan.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\salmonBowl.png",
+      "PackagePath": "staticwebassets\\images\\salmonBowl.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\sanSebastianCheesecake.png",
+      "PackagePath": "staticwebassets\\images\\sanSebastianCheesecake.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\sarma.png",
+      "PackagePath": "staticwebassets\\images\\sarma.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\seaFoodFettuccine.png",
+      "PackagePath": "staticwebassets\\images\\seaFoodFettuccine.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\sharedBreakfast.png",
+      "PackagePath": "staticwebassets\\images\\sharedBreakfast.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\sizzlingBeef.png",
+      "PackagePath": "staticwebassets\\images\\sizzlingBeef.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\snacksTray.png",
+      "PackagePath": "staticwebassets\\images\\snacksTray.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\tantuniBun.png",
+      "PackagePath": "staticwebassets\\images\\tantuniBun.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\tantuniPizza.png",
+      "PackagePath": "staticwebassets\\images\\tantuniPizza.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\thaiChickenBowl.png",
+      "PackagePath": "staticwebassets\\images\\thaiChickenBowl.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\tomatoSoup.png",
+      "PackagePath": "staticwebassets\\images\\tomatoSoup.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\tunaSalad.png",
+      "PackagePath": "staticwebassets\\images\\tunaSalad.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\veganBurger.png",
+      "PackagePath": "staticwebassets\\images\\veganBurger.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\veganSchnitzel.png",
+      "PackagePath": "staticwebassets\\images\\veganSchnitzel.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\warmSteakSalad.png",
+      "PackagePath": "staticwebassets\\images\\warmSteakSalad.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\whiteOmelette.png",
+      "PackagePath": "staticwebassets\\images\\whiteOmelette.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\yoghurtSoup.png",
+      "PackagePath": "staticwebassets\\images\\yoghurtSoup.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\js\\site.js",

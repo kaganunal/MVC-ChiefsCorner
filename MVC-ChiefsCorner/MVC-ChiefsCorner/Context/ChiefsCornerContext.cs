@@ -24,52 +24,57 @@ namespace MVC_ChiefsCorner.Context
         public DbSet<MenuExtra> MenuExtras { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderMenu> OrderMenus { get; set; }
-        public DbSet<OrderExtra> OrderExtras { get; set; }
         public Size Size { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<MenuCategory>()
-            .HasMany(mc => mc.Menus)
-            .WithOne(m => m.MenuCategory)
-            .HasForeignKey(m => m.MenuCategoryId)
+            modelBuilder.Entity<Order>()
+            .HasOne(o => o.User)
+            .WithMany(u => u.Orders)
+            .HasForeignKey(o => o.UserId)
             .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<Menu>()
-                .HasMany(m => m.MenuExtras)
-                .WithOne(me => me.Menu)
-                .HasForeignKey(me => me.MenuId)
+            modelBuilder.Entity<OrderMenu>()
+                .HasOne(om => om.Order)
+                .WithMany(o => o.OrderMenus)
+                .HasForeignKey(om => om.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Extra>()
-                .HasMany(e => e.MenuExtras)
-                .WithOne(me => me.Extra)
-                .HasForeignKey(me => me.ExtraId)
-                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<OrderMenu>()
+                .HasOne(om => om.Menu)
+                .WithMany(m => m.OrderMenus)
+                .HasForeignKey(om => om.MenuId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<MenuExtra>()
                 .HasKey(me => new { me.MenuId, me.ExtraId });
 
-            modelBuilder.Entity<Order>()
-                .HasMany(o => o.OrderMenus)
-                .WithOne(om => om.Order)
-                .HasForeignKey(om => om.OrderId)
+            modelBuilder.Entity<MenuExtra>()
+                .HasOne(me => me.Menu)
+                .WithMany(m => m.MenuExtras)
+                .HasForeignKey(me => me.MenuId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Order>()
-                .HasMany(o => o.OrderExtras)
-                .WithOne(oe => oe.Order)
-                .HasForeignKey(oe => oe.OrderId)
-                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<MenuExtra>()
+                .HasOne(me => me.Extra)
+                .WithMany(e => e.MenuExtras)
+                .HasForeignKey(me => me.ExtraId)
+                .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<OrderMenu>()
-                .HasMany(om => om.OrderExtras)
-                .WithOne(oe => oe.OrderMenu)
-                .HasForeignKey(oe => new { oe.OrderId, oe.OrderMenuId })
-                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<AppUser>()
+                .HasMany(u => u.Orders)
+                .WithOne(o => o.User)
+                .HasForeignKey(o => o.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Menu>()
+                .HasOne(m => m.MenuCategory)
+                .WithMany(c => c.Menus)
+                .HasForeignKey(m => m.MenuCategoryId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            base.OnModelCreating(modelBuilder);
 
             OnModelCreatingPartial(modelBuilder);
             AddRoles(modelBuilder);

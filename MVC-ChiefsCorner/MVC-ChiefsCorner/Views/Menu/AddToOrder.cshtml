@@ -1,0 +1,23 @@
+﻿@model MVC_ChiefsCorner.Models.Order
+
+<h1>Siparişe Menü Ekle</h1>
+
+<h3>Menü Seçin</h3>
+
+<form asp-action="AddToOrder">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label for="menuId">Menü:</label>
+        <select id="menuId" name="menuId" class="form-control">
+            @foreach (var menu in ViewBag.Menus)
+            {
+                <option value="@menu.Id">@menu.Name - @menu.Price</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Siparişe Ekle</button>
+    </div>
+</form>

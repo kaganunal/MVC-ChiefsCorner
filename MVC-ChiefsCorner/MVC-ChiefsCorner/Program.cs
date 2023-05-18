@@ -17,16 +17,28 @@ builder.Services.AddDbContext<ChiefsCornerContext>((opt) =>
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt =>
 {
-    opt.Password.RequiredLength = 3;
-    opt.Password.RequireDigit = false;
-    opt.Password.RequireLowercase = false;
-    opt.Password.RequireUppercase = false;
-    opt.Password.RequireNonAlphanumeric = false;
+
 }).AddEntityFrameworkStores<ChiefsCornerContext>().AddDefaultTokenProviders();
 
 builder.Services.Configure<IdentityOptions>(opt =>
 {
-    opt.SignIn.RequireConfirmedEmail = true;
+    opt.ClaimsIdentity.RoleClaimType = "Admin";
+    opt.User.RequireUniqueEmail = true;
+    opt.SignIn.RequireConfirmedEmail = false;
+    opt.Password.RequireDigit = false;
+    opt.Password.RequireLowercase = false;
+    opt.Password.RequireUppercase = false;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequiredLength = 3;
+
+    opt.ClaimsIdentity.RoleClaimType = "Customer";
+    opt.User.RequireUniqueEmail = true;
+    opt.SignIn.RequireConfirmedEmail = false;
+    opt.Password.RequireDigit = false;
+    opt.Password.RequireLowercase = false;
+    opt.Password.RequireUppercase = false;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequiredLength = 3;
 });
 
 builder.Services.AddAuthentication(
@@ -57,6 +69,14 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
+});
 
 app.MapControllerRoute(
     name: "default",
