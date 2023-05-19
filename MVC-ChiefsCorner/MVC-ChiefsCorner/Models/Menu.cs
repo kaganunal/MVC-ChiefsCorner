@@ -13,8 +13,11 @@ namespace MVC_ChiefsCorner.Models
         [Range(0, 9999)]
         public decimal Price { get; set; }
         public string? Description { get; set; }
+        [Display(Name = "Photo")]
         public string ImagePath { get; set; }
         [Required(ErrorMessage = "Menu category is required")]
+        [Display(Name = "Category")]
+
         public int MenuCategoryId { get; set; }
         public virtual MenuCategory MenuCategory { get; set; }
         public virtual ICollection<OrderMenu> OrderMenus { get; set; }

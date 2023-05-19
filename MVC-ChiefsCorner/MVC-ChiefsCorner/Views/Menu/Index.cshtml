@@ -1,10 +1,29 @@
 ﻿@model List<MenuCategory>
 
-<h1>Kategoriler</h1>
 
-<ul>
-    @foreach (var category in Model)
-    {
-        <li><a href="@Url.Action("MenuList", new { categoryId = category.Id })">@category.Name</a></li>
-    }
-</ul>
+<div class="text-center m-4">
+    <a asp-controller="Home" asp-action="Index"><i class="fa-solid fa-arrow-left fa-4x"></i></a>
+    <h1 >Categories</h1>
+</div>
+
+<div class="container" >
+    <div class=" row" style="justify-content:center">
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-3 border-2 m-1">
+                <div class="card text-center" style="width: 18rem;">
+                    <a href="@Url.Action("MenuList", "Menu", new { categoryId = item.Id })">
+
+                        <img class="card-img-top width:80px height:200px;" src="@Html.DisplayFor(modelItem => item.ImagePath)" alt="Card image cap">
+                        <div class="card-body">
+
+                            <p class="card-text text-center"> @Html.DisplayFor(modelItem => item.Name)</p>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>

@@ -1,161 +1,4 @@
-﻿@*<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MVC_ChiefsCorner</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/MVC_ChiefsCorner.styles.css" asp-append-version="true" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MVC_ChiefsCorner</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="SignUp">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - MVC_ChiefsCorner - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
-</html>
-*@
-
-
-@*<!DOCTYPE HTML>
-
-<html lang="en">
-<head>
-    <title>COMOSYS</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="~/assets/css/main.css" />
-    <title>@ViewData["Title"] - Identity-Roles-User</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Authentication_Identity_Area_Roles.styles.css" asp-append-version="true" />
-</head>
-<body class="landing is-preload">
-    <div id="page-wrapper">
-
-        <!-- Header -->
-        <header id="header" class="alt">
-            <h1>Kagan Unal</h1>
-            <nav id="nav">
-                <ul>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="User" asp-action="SignUp">SignUp</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="User" asp-action="SignIn">SignIn</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- Banner -->
-        <section id="banner">
-            <h2>Alpha</h2>
-            <p>COMOSYS</p>
-            <ul class="actions special">
-                <li><a asp-controller="User" asp-action="SignUp" class="button primary">Sign Up</a></li>
-                <li><a asp-controller="User" asp-action="SignIn" class="button primary">Sign In</a></li>
-            </ul>
-        </section>
-
-        <!-- Main -->
-        @*        <section id="main" class="container">
-        <section class="box special">
-        <header class="major">*@
-@*        @RenderBody()
-        @*                </header>
-        <span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-        </section>
-        </section>*@
-
-<!-- CTA -->
-@*        <section id="cta">
-
-            <h2>Sign up for beta access</h2>
-            <p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
-
-            <form>
-                <div class="row gtr-50 gtr-uniform">
-                    <div class="col-8 col-12-mobilep">
-                        <input type="email" name="email" id="email" placeholder="Email Address" />
-                    </div>
-                    <div class="col-4 col-12-mobilep">
-                        <input type="submit" value="Sign Up" class="fit" />
-                    </div>
-                </div>
-            </form>
-
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
-                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-                <li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-            </ul>
-        </footer>
-
-    </div>
-
-    <!-- Scripts -->
-    <script src="~/assets/js/jquery.min.js"></script>
-    <script src="~/assets/js/jquery.dropotron.min.js"></script>
-    <script src="~/assets/js/jquery.scrollex.min.js"></script>
-    <script src="~/assets/js/browser.min.js"></script>
-    <script src="~/assets/js/breakpoints.min.js"></script>
-    <script src="~/assets/js/util.js"></script>
-    <script src="~/assets/js/main.js"></script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-
-</body>
-</html>*@
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
 
@@ -166,10 +9,6 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
-    @*    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/MVC_ChiefsCorner.styles.css" asp-append-version="true" />*@
 
     <!-- Favicon -->
     <link href="~/assets/img/favicon.ico" rel="icon">
@@ -209,8 +48,8 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <img src="~/assets/img/logo.png" style="zoom: 1.7" alt="Logo">
+                <a asp-action="Index" asp-controller="Home" class="navbar-brand p-0">
+                    <img src="~/assets/img/logo.png" style="zoom: 1.3" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -218,18 +57,15 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
 
-                        <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index">Home</a>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         <a class="nav-link" asp-area="" asp-controller="User" asp-action="SignUp">Sign Up</a>
                         <a class="nav-link" asp-area="" asp-controller="User" asp-action="SignIn">Sign In</a>
                         <a class="nav-link" asp-area="" asp-controller="User" asp-action="Logout">Log Out</a>
+                        <a class="nav-link" asp-area="" asp-controller="Menu" asp-action="Index">Menu</a>
 
-
-
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
-                                <a href="booking.html" class="dropdown-item">Booking</a>
                                 <a href="team.html" class="dropdown-item">Our Team</a>
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                             </div>
@@ -240,19 +76,7 @@
                 </div>
             </nav>
 
-            <div class="container-xxl py-5 bg-dark hero-header mb-5">
-                <div class="container my-5 py-5">
-                    <div class="row align-items-center g-5">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>Delicious Meal</h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                            <img class="img-fluid" src="~/assets/img/hero.png" alt="">
-                        </div>
-                    </div>
-                </div>
+            <div class="container-xxl py-5 bg-dark">
             </div>
         </div>
         <!-- Navbar & Hero End -->

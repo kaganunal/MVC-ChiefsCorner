@@ -5,51 +5,33 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>MenuDetails</h1>
 
-<div>
-    <h4>Menu</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Id)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Id)
+
+
+<div class="text-center">
+
+    <dl class="row" style="justify-content:center">
+        <dd> <h1 class="text-center mb-3">Menu Details</h1></dd>
+        <dd><hr /></dd>
+        <dd><h4>@Html.DisplayFor(model => model.Name)</h4></dd>
+        <dd><hr /></dd>
+        <dd>
+            <img src="@Html.DisplayFor(model => model.ImagePath)" class="img-fluid" height="400" width="400" draggable="true" />
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
+        <dd>
+            @Html.DisplayFor(model => model.MenuCategory.Name)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
+        <dd>
+            @Html.DisplayFor(model => model.Price) ₺
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
+        <dd>
             @Html.DisplayFor(model => model.Description)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagePath)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagePath)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MenuCategoryId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MenuCategoryId)
+        <dd>
+            <a asp-action="Index"><i class="fa-solid fa-arrow-left fa-4x"></i></a>
         </dd>
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    <a asp-action="Index">Back to List</a>
+    @*    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
 </div>

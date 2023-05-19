@@ -1,26 +1,24 @@
-﻿@using MVC_ChiefsCorner.Models
+﻿@model List<Menu>
 
-@model List<Menu>
-
-<h1>Menüler</h1>
+<div class="text-center m-4">
+    <a asp-action="Index"><i class="fa-solid fa-arrow-left fa-4x"></i></a>
+    <h1>
+        Menus
+    </h1>
+</div>
 
 <div class="container">
-    <div class=" row">
+    <div class="row" style="justify-content:center">
         @foreach (var item in Model)
         {
-            <div class="col-lg-4 border-2">
-                <div class="card" style="width: 18rem;">
+            <div class="col-lg-3 border-2 m-2">
+                <div class="card text-center" style="width: 18rem;">
                     <img class="card-img-top width:80px height:200px;" src="@Html.DisplayFor(modelItem => item.ImagePath)" alt="Card image cap">
                     <div class="card-body">
 
-                        <p class="card-text">
-                            Name: @Html.DisplayFor(modelItem => item.Name)
-                        </p>
-                        <p class="card-text">Price: @Html.DisplayFor(modelItem => item.Price)</p>
-
-                        <a href="@Url.Action("AddToOrder", new { menuId = item.Id, orderId = 1 })">Siparişe Ekle</a>
-
-                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-warning"><i class="fa-sharp fa-solid fa-trash"></i></a>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.Name) </p>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.Price) ₺</p>
+                        <a asp-action="AddToOrder" asp-route-id="@item.Id" class="btn btn-warning"><i class="fa-sharp fa-solid fa-plus"></i></a>
                         <a asp-action="MenuDetails" asp-route-id="@item.Id" class="btn btn-warning"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
                     </div>
                 </div>
@@ -29,4 +27,5 @@
     </div>
 
 </div>
+
 

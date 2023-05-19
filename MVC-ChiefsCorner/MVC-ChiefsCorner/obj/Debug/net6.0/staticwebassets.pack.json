@@ -613,6 +613,90 @@
       "PackagePath": "staticwebassets\\images\\bigBigBurger.png"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\bowlsCategory.png",
+      "PackagePath": "staticwebassets\\images\\bowlsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\breakfastCategory.png",
+      "PackagePath": "staticwebassets\\images\\breakfastCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\burgersCategory.png",
+      "PackagePath": "staticwebassets\\images\\burgersCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\bowlsCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\bowlsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\breakfastCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\breakfastCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\burgersCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\burgersCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\chickensCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\chickensCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\dessertsCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\dessertsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\fajitasCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\fajitasCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\fishCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\fishCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\meatballsCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\meatballsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\meatsCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\meatsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\pastasCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\pastasCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\pizzasCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\pizzasCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\saladsCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\saladsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\snacksCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\snacksCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\soupsCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\soupsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\specialsCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\specialsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\startersCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\startersCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\streetFoodCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\streetFoodCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\categories\\vegansCategory.png",
+      "PackagePath": "staticwebassets\\images\\categories\\vegansCategory.png"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\ceasarSalad.png",
       "PackagePath": "staticwebassets\\images\\ceasarSalad.png"
     },
@@ -643,6 +727,10 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chickenSchnitzel.png",
       "PackagePath": "staticwebassets\\images\\chickenSchnitzel.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chickensCategory.png",
+      "PackagePath": "staticwebassets\\images\\chickensCategory.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\chilledLemonCake.png",
@@ -677,8 +765,16 @@
       "PackagePath": "staticwebassets\\images\\deepFriedChickenPieces.png"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\dessertsCategory.png",
+      "PackagePath": "staticwebassets\\images\\dessertsCategory.png"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\devilsFoodCake.png",
       "PackagePath": "staticwebassets\\images\\devilsFoodCake.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\fajitasCategory.png",
+      "PackagePath": "staticwebassets\\images\\fajitasCategory.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\falafel.png",
@@ -695,6 +791,10 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\fettuccineWithSmokedTomatoSauce.png",
       "PackagePath": "staticwebassets\\images\\fettuccineWithSmokedTomatoSauce.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\fishCategory.png",
+      "PackagePath": "staticwebassets\\images\\fishCategory.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\flatbreadToast.png",
@@ -773,6 +873,14 @@
       "PackagePath": "staticwebassets\\images\\meatballWithFlatBread.png"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\meatballsCategory.png",
+      "PackagePath": "staticwebassets\\images\\meatballsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\meatsCategory.png",
+      "PackagePath": "staticwebassets\\images\\meatsCategory.png"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\menemen.png",
       "PackagePath": "staticwebassets\\images\\menemen.png"
     },
@@ -809,12 +917,20 @@
       "PackagePath": "staticwebassets\\images\\orangeFlavoredGrilledSalmon.png"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\pastasCategory.png",
+      "PackagePath": "staticwebassets\\images\\pastasCategory.png"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\penneArabiata.png",
       "PackagePath": "staticwebassets\\images\\penneArabiata.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\pestoRossoPasta.png",
       "PackagePath": "staticwebassets\\images\\pestoRossoPasta.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\pizzasCategory.png",
+      "PackagePath": "staticwebassets\\images\\pizzasCategory.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\quinoaSalad.png",
@@ -827,6 +943,10 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\redLentilPastaVegan.png",
       "PackagePath": "staticwebassets\\images\\redLentilPastaVegan.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\saladsCategory.png",
+      "PackagePath": "staticwebassets\\images\\saladsCategory.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\salmonBowl.png",
@@ -853,8 +973,28 @@
       "PackagePath": "staticwebassets\\images\\sizzlingBeef.png"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\snacksCategory.png",
+      "PackagePath": "staticwebassets\\images\\snacksCategory.png"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\snacksTray.png",
       "PackagePath": "staticwebassets\\images\\snacksTray.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\soupsCategory.png",
+      "PackagePath": "staticwebassets\\images\\soupsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\specialsCategory.png",
+      "PackagePath": "staticwebassets\\images\\specialsCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\startersCategory.png",
+      "PackagePath": "staticwebassets\\images\\startersCategory.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\streetFoodCategory.png",
+      "PackagePath": "staticwebassets\\images\\streetFoodCategory.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\tantuniBun.png",
@@ -883,6 +1023,10 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\veganSchnitzel.png",
       "PackagePath": "staticwebassets\\images\\veganSchnitzel.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\vegansCategory.png",
+      "PackagePath": "staticwebassets\\images\\vegansCategory.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\MVC-ChiefsCorner\\wwwroot\\images\\warmSteakSalad.png",
