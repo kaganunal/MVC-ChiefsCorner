@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MVC_ChiefsCorner.Context;
 using MVC_ChiefsCorner.Models;
@@ -8,9 +10,12 @@ namespace MVC_ChiefsCorner.Controllers
     public class MenuController : Controller
     {
         private readonly ChiefsCornerContext _context;
-        public MenuController(ChiefsCornerContext context)
+        private readonly UserManager<AppUser> _userManager;
+
+        public MenuController(ChiefsCornerContext context, UserManager<AppUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         //Kategorileri Listeleme
@@ -38,26 +43,27 @@ namespace MVC_ChiefsCorner.Controllers
             return View(menu);
         }
 
-        public async Task<IActionResult> AddToOrder()
+        public async Task<IActionResult> AddToOrder(Menu menu)
         {
-            return View();
+            return View(menu);
         }
 
         [HttpPost]
-        public IActionResult AddToOrder(int menuId)
+        [Authorize(Roles = "CUSTOMER")]
+        public async Task<IActionResult> AddToOrder(int menuId, Size size)
         {
-            var user = _userManager.GetUserAsync(User).Result;
+            var user = await _userManager.GetUserAsync(User);
 
             if (user != null)
             {
-                var menu = _context.Menus.FirstOrDefault(m => m.Id == menuId);
+                var menu = await _context.Menus.FirstOrDefaultAsync(m => m.Id == menuId);
 
                 if (menu != null)
                 {
                     var orderMenu = new OrderMenu
                     {
                         Menu = menu,
-                        // Size veya diğer özelliklerin eklenmesi gerekiyorsa buraya eklenebilir
+                        Size = size,
                     };
 
                     if (user.Orders == null)
@@ -81,9 +87,9 @@ namespace MVC_ChiefsCorner.Controllers
 
                     order.OrderMenus.Add(orderMenu);
 
-                    _context.SaveChanges();
+                    await _context.SaveChangesAsync();
 
-                    return Content("Menu added to order.");
+                    return View(menu);
                 }
                 else
                 {
@@ -92,7 +98,7 @@ namespace MVC_ChiefsCorner.Controllers
             }
             else
             {
-                return Content("Error: User not found.");
+                return RedirectToAction("Login", "Account");
             }
         }
 

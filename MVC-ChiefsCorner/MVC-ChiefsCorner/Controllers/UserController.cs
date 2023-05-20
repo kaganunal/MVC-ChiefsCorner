@@ -14,13 +14,13 @@ namespace MVC_ChiefsCorner.Controllers
 {
     public class UserController : Controller
     {
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly SignInManager<AppUser> _signInManager;
         private readonly IConfiguration _configuration;
         private readonly IEmailService _emailService;
 
-        public UserController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration, IEmailService emailService, SignInManager<IdentityUser> signInManager)
+        public UserController(UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration, IEmailService emailService, SignInManager<AppUser> signInManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -69,7 +69,7 @@ namespace MVC_ChiefsCorner.Controllers
                 var userRole = await _roleManager.FindByNameAsync(role);
                 if (userRole != null)
                 {
-                    IdentityUser newUser = new()
+                    AppUser newUser = new()
                     {
                         UserName = appUser.Username,
                         Email = appUser.Email,
