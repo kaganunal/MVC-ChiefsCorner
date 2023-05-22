@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Order Management";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div style="margin: 20px;">
+    <a asp-controller="AdminUser" asp-action="Index" style="color: #333;"><i class="fa-solid fa-arrow-left fa-3x"></i></a>
+    <h1 style="margin-top: 20px;">Order Management</h1>
+</div>
+<hr />
+
+<div style="margin: 20px;">
+    <h3>Filters</h3>
+    <form asp-controller="AdminOrder" asp-action="Index" method="get">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="startDate">Start Date</label>
+                    <input type="date" class="form-control" style="width: 150px; padding: 6px; background-color: gainsboro" id="startDate" name="startDate" value="@ViewBag.StartDate">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="endDate">End Date</label>
+                    <input type="date" class="form-control" style="width: 150px; padding: 6px; background-color: gainsboro" id="endDate" name="endDate" value="@ViewBag.EndDate">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="status">Status</label>
+                    <select class="form-control" style="width: 150px; padding: 6px; background-color: gainsboro" id="status" name="status">
+                        <option value="">All</option>
+                        @{
+                            if (ViewBag.OrderStatus == "Pending")
+                            {
+                                <option value="Pending" selected="selected">Pending</option>
+                                <option value="Medium">Completed</option>
+
+                            }
+                            else
+                            {
+                                <option value="Pending">Pending</option>
+                                <option value="Completed" selected="selected">Completed</option>
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary" style="margin-top: 30px;">Apply Filters</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div style="margin: 20px;">
+    <h3>Order List</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>User ID</th>
+                <th>Order Date</th>
+                <th>Order Total</th>
+                <th>Status</th>
+                <th>Update Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in ViewBag.Orders)
+            {
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.UserId</td>
+                    <td>@order.OrderTime</td>
+                    <td>@order.OrderTotal</td>
+                    <td>@order.OrderStatus</td>
+                    <td>
+                        <a href="@Url.Action("UpdateOrderStatus", "AdminOrder", new { id = order.Id })" class="btn btn-primary">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="text-center" style="margin-bottom: 20px;">
+    <nav aria-label="Order Pagination">
+        <ul class="pagination">
+            @if (ViewBag.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("Index", "AdminOrder", new { page = ViewBag.CurrentPage - 1, pageSize = 5, startDate = ViewBag.StartDate, endDate = ViewBag.EndDate, status = ViewBag.Status })">&laquo;</a>
+                </li>
+            }
+
+            @for (var i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", "AdminOrder", new { page = i, pageSize = 5, startDate = ViewBag.StartDate, endDate = ViewBag.EndDate, status = ViewBag.Status })">@i</a>
+                </li>
+            }
+
+            @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("Index", "AdminOrder", new { page = ViewBag.CurrentPage + 1, pageSize = 5, startDate = ViewBag.StartDate, endDate = ViewBag.EndDate, status = ViewBag.Status })">&raquo;</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
+
+
+

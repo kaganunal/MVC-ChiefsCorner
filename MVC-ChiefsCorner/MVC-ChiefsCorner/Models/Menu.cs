@@ -14,13 +14,15 @@ namespace MVC_ChiefsCorner.Models
         public decimal Price { get; set; }
         public string? Description { get; set; }
         [Display(Name = "Photo")]
-        public string ImagePath { get; set; }
+        public string? ImagePath { get; set; }
         [Required(ErrorMessage = "Menu category is required")]
         [Display(Name = "Category")]
+        public bool IsAvailable { get; set; } = true;
+
+        public int PreparationTime { get; set; } = 15;
 
         public int MenuCategoryId { get; set; }
-        public virtual MenuCategory MenuCategory { get; set; }
-        public virtual ICollection<OrderMenu> OrderMenus { get; set; }
-        public virtual ICollection<MenuExtra> MenuExtras { get; set; }
+        public virtual MenuCategory? MenuCategory { get; set; }
+        public virtual ICollection<OrderMenu>? OrderMenus { get; set; }
     }
 }

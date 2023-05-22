@@ -1,0 +1,52 @@
+﻿@model MVC_ChiefsCorner.Models.Menu
+
+@{
+    ViewData["Title"] = "Menu Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div style="margin: 20px;">
+    <a asp-controller="AdminMenu" asp-action="Index" style="color: #333;"><i class="fa-solid fa-arrow-left fa-3x"></i></a>
+    <h1 style="margin-top: 20px;">Menu Details</h1>
+</div>
+<hr />
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div style="margin: 20px; color: #fff; background-color: #dc3545; padding: 10px;">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<div style="margin: 20px;">
+    <h3>Menu Details</h3>
+    <div>
+        <strong>Menu Name:</strong> @Model.Name
+    </div>
+    <div>
+        <strong>Price:</strong> @Model.Price
+    </div>
+    <div>
+        <strong>Description:</strong> @Model.Description
+    </div>
+    <div>
+        <strong>Category:</strong> @Model.MenuCategoryId
+    </div>
+    <div>
+        <strong>Is Available:</strong> @(Model.IsAvailable ? "Yes" : "No")
+    </div>
+    <div>
+        <strong>Preparation Time:</strong> @Model.PreparationTime
+    </div>
+    <div>
+        <strong>Image:</strong>
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="@Model.ImagePath" alt="Menu Image" style="max-width: 300px; margin-top: 10px;" />
+        }
+        else
+        {
+            <span>No image available</span>
+        }
+    </div>
+</div>

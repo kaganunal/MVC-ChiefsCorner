@@ -1,0 +1,37 @@
+﻿@model MVC_ChiefsCorner.Models.MenuCategory
+
+@{
+    ViewData["Title"] = "Edit Category";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div style="margin: 20px;">
+    <a asp-controller="AdminMenu" asp-action="Index" style="color: #333;"><i class="fa-solid fa-arrow-left fa-3x"></i></a>
+    <h1 style="margin-top: 20px;">Edit Category</h1>
+</div>
+<hr />
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div style="margin: 20px; color: #fff; background-color: #dc3545; padding: 10px;">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<form method="post" asp-action="EditCategory" asp-controller="AdminMenu" enctype="multipart/form-data" style="margin: 20px;">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name" style="font-weight: bold;">Category Name</label>
+        <input asp-for="Name" class="form-control" style="width: 300px; padding: 6px; background-color: gainsboro " />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImagePath" style="font-weight: bold;">Image</label>
+        <input asp-for="ImagePath" type="file" class="form-control" name="file" style="width: 300px; padding: 6px; background-color: gainsboro" />
+        <span asp-validation-for="ImagePath" asp-for="ImagePath" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary" style="padding: 8px 16px; border: none; color: #fff;">Update</button>
+</form>

@@ -10,7 +10,7 @@ namespace MVC_ChiefsCorner.Models
         [Required(ErrorMessage = "Category name is required")]
         [StringLength(50, ErrorMessage = "Category name cannot be longer than 50 characters")]
         public string Name { get; set; }
-        public string ImagePath { get; set; }
-        public virtual ICollection<Menu> Menus { get; set; }
+        public string? ImagePath { get; set; }
+        public virtual ICollection<Menu>? Menus { get; set; }
     }
 }

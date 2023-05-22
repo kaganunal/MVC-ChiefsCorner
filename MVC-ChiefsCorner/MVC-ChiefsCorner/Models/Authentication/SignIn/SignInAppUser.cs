@@ -4,8 +4,8 @@ namespace MVC_ChiefsCorner.Models.Authentication.SignIn
 {
     public class SignInAppUser
     {
-        [Required(ErrorMessage = "Bu bilginin girilmesi zorunludur.")]
-        public string Email { get; set; }
+        //[Required(ErrorMessage = "Bu bilginin girilmesi zorunludur.")]
+        //public string Email { get; set; }
         [Required(ErrorMessage = "Bu bilginin girilmesi zorunludur.")]
         public string Username { get; set; }
         //[MinLength(8)]

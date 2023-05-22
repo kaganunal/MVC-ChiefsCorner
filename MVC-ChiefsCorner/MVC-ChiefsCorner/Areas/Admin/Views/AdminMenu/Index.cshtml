@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MVC_ChiefsCorner.Models.MenuCategory>
+
+@{
+    ViewData["Title"] = "Manage Categories";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="m-4">
+    <a asp-area="" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-arrow-left fa-3x"></i></a>
+    <h1>Manage Categories</h1>
+</div>
+<hr />
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+{
+    <div class="alert alert-success">
+        @ViewBag.SuccessMessage
+    </div>
+}
+
+<div class="text-center">
+    <a href="@Url.Action("AddCategory", "AdminMenu")" class="btn btn-success">Add Category</a>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Category Name</th>
+                <th>Image</th>
+                <th>Look Menus</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model)
+            {
+                <tr>
+                    <td>@category.Name</td>
+                    <td>
+                        <img class="img-fluid " style="height:80px" src="@category.ImagePath" alt="Card image cap">
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Menu", "AdminMenu", new { categoryId = category.Id })" class="btn btn-primary">Menus</a>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("DetailsCategory", "AdminMenu", new { id = category.Id })" class="btn btn-primary">Details</a>
+                        <a href="@Url.Action("EditCategory", "AdminMenu", new { id = category.Id })" class="btn btn-primary">Edit</a>
+                        <a href="@Url.Action("DeleteCategory", "AdminMenu", new { id = category.Id })" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

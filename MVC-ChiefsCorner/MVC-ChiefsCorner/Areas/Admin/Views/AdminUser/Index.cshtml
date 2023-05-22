@@ -1,0 +1,67 @@
+﻿@model List<MVC_ChiefsCorner.Models.AppUser>
+
+@{
+    ViewData["Title"] = "User Management";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div style="margin: 20px;">
+    <a asp-controller="AdminUser" asp-action="Index" style="color: #333;"><i class="fa-solid fa-arrow-left fa-3x"></i></a>
+    <h1 style="margin-top: 20px;">User Management</h1>
+</div>
+<hr />
+<div class="text-center">
+    <a href="@Url.Action("CreateUser", "AdminUser")" class="btn btn-success">Create User</a>
+</div>
+
+<div style="margin: 20px;">
+    <h3>Filters</h3>
+    <form asp-controller="AdminUser" asp-action="Index" method="get">
+        <div class="row text-center">
+            <div class="col-md-6 text-center">
+                <div class="form-group">
+                    <label for="searchEmail">Email</label>
+                    <input type="text" class="form-control" style="width: 300px; padding: 6px; background-color: gainsboro" id="searchEmail" name="searchEmail" value="@ViewBag.SearchEmail">
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="form-group">
+                    <label for="searchName">Name</label>
+                    <input type="text" class="form-control" style="width: 300px; padding: 6px; background-color: gainsboro" id="searchName" name="searchName" value="@ViewBag.SearchName">
+                </div>
+            </div>
+            <div class="col-md-12 m-4">
+                <button type="submit" class="btn btn-primary">Apply Filters</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div style="margin: 20px;">
+    <h3>User List</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>
+                        <a href="@Url.Action("UserDetails", "AdminUser", new { id = user.Id })" class="btn btn-primary">Details</a>
+                        <a href="@Url.Action("EditUser", "AdminUser", new { id = user.Id })" class="btn btn-warning">Edit</a>
+                        <a href="@Url.Action("DeleteUser", "AdminUser", new { id = user.Id })" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,94 @@
+﻿@model List<OrderMenu>
+
+@{
+    ViewData["Title"] = "Payment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center mb-3">Payment</h1>
+<hr />
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <div class="alert alert-danger">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
+
+            @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+            {
+                <div class="alert alert-success">
+                    @ViewBag.SuccessMessage
+                </div>
+            }
+
+            @if (Model != null && Model.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Menu Name</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Menu.Name</td>
+                                    <td>@item.Quantity</td>
+                                    <td>@item.Menu.Price</td>
+                                    <td>@(item.Menu.Price * item.Quantity)</td>
+                                </tr>
+                            }
+                            <tr>
+                                <td colspan="3" class="text-end fw-bold">Total Price:</td>
+                                <td><strong>Total:</strong> @Model.Sum(om => om.Menu.Price * om.Quantity)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <form method="post" asp-action="Index" asp-controller="Cart">
+                    <div class="mb-3">
+                        <label for="cardNumber" class="form-label">Card Number</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="cardNumber" name="cardNumber" required>
+                            <span class="input-group-text"><i class="far fa-credit-card"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="expirationDate" class="form-label">Expiration Date</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="expirationDate" name="expirationDate" required>
+                            <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="cvv" class="form-label">CVV</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control form-control-sm" id="cvv" name="cvv" required>
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Pay Now</button>
+                </form>
+            }
+            else
+            {
+                <div class="alert alert-info" role="alert">
+                    No pending order found.
+                </div>
+            }
+        </div>
+    </div>
+</div>

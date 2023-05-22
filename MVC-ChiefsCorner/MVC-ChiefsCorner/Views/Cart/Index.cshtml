@@ -1,0 +1,121 @@
+﻿@model List<MVC_ChiefsCorner.Models.OrderMenu>
+
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center mb-4">Cart</h1>
+<hr />
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+{
+    <div class="alert alert-success">
+        @ViewBag.SuccessMessage
+    </div>
+}
+<div class="container">
+    @if (Model.Any())
+    {
+        <div class="row">
+            <div class="col-md-8">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Menu</th>
+                            <th></th>
+                            <th>Size</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var orderMenu in Model)
+                        {
+                            <tr>
+                                <td>@orderMenu.Menu.Name</td>
+                                <td><img src="@orderMenu.Menu.ImagePath" alt="Menu Image" class="mr-3" style="width: 80px;" /></td>
+                                <td>
+
+                                    <form action="@Url.Action("UpdateQuantity", "Cart")" method="post">
+                                        <input type="hidden" name="orderMenuId" value="@orderMenu.Id" />
+                                        @{
+                                            var optionValue = orderMenu.Size;
+                                        }
+                                        <select asp-for="@optionValue" name="size" class="form-control">
+
+                                            @* @{
+                                    if (orderMenu.Size == Size.Small)
+                                    {*@
+                                            <option value="Small">Small</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="Large">Large</option>
+
+                                            @*                                                }
+                                    else if (orderMenu.Size == Size.Medium)
+                                    {*@
+                                          @*  <option value="Small">Small</option>
+                                            <option value="Medium" selected="selected">Medium</option>
+                                            <option value="Large">Large</option>*@
+                                            @*                                                }
+                                    else
+                                    {*@
+                                            @*<option value="Small">Small</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="Large" selected="selected">Large</option>*@
+                                            @*                                                }
+                                    }*@
+                                        </select>
+                                        <input type="number" name="quantity" class="form-control" value="@orderMenu.Quantity" />
+                                        <button type="submit" class="btn btn-sm btn-primary">Update</button>
+
+                                    </form>
+
+                                </td>
+                                <td>@(orderMenu.Menu.Price * orderMenu.Quantity)</td>
+                                <td>
+                                    <a class="btn btn-sm btn-danger" href="@Url.Action("RemoveFromCart", "Cart", new { orderMenuId = orderMenu.Id })">Remove</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cart Summary</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <strong>Total:</strong> @Model.Sum(om => om.Menu.Price * om.Quantity)
+                            </li>
+                        </ul>
+                        <form method="post" asp-action="CompleteOrder" asp-controller="Cart">
+                            <input type="hidden" name="orderId" value="@Model[0].OrderId" />
+                            <button type="submit" class="btn btn-primary btn-block mt-3">Proceed to Checkout</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="text-center">
+            <p>Your cart is empty.</p>
+            <a class="btn btn-primary" href="@Url.Action("Index", "Menu")">Let's fill your cart'</a>
+        </div>
+    }
+</div>
+
+
+
+

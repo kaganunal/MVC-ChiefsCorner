@@ -1,0 +1,37 @@
+﻿@model MVC_ChiefsCorner.Models.MenuCategory
+
+@{
+    ViewData["Title"] = "Category Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div style="margin: 20px;">
+    <a asp-controller="AdminMenu" asp-action="Index" style="color: #333;"><i class="fa-solid fa-arrow-left fa-3x"></i></a>
+    <h1 style="margin-top: 20px;">Category Details</h1>
+</div>
+<hr />
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div style="margin: 20px; color: #fff; background-color: #dc3545; padding: 10px;">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<div style="margin: 20px;">
+    <h3>Category Details</h3>
+    <div>
+        <strong>Category Name:</strong> @Model.Name
+    </div>
+    <div>
+        <strong>Image:</strong>
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="@Model.ImagePath" alt="Category Image" style="max-width: 300px; margin-top: 10px;" />
+        }
+        else
+        {
+            <span>No image available</span>
+        }
+    </div>
+</div>

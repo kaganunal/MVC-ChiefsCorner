@@ -1,0 +1,29 @@
+﻿@model MVC_ChiefsCorner.Models.MenuCategory
+
+@{
+    ViewData["Title"] = "Delete Category";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div style="margin: 20px;">
+    <a asp-controller="AdminMenu" asp-action="Index" style="color: #333;"><i class="fa-solid fa-arrow-left fa-3x"></i></a>
+    <h1 style="margin-top: 20px;">Delete Category</h1>
+</div>
+<hr />
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div style="margin: 20px; color: #fff; background-color: #dc3545; padding: 10px;">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<div style="margin: 20px;">
+    <h4>Are you sure you want to delete the category "@Model.Name"?</h4>
+    <form method="post" asp-action="DeleteConfirmed" asp-controller="AdminMenu" style="display: inline;">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+    <a asp-controller="AdminMenu" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</div>
+

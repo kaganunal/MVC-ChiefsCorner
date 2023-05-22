@@ -51,15 +51,15 @@ namespace MVC_ChiefsCorner.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "591a1b58-847e-4379-b5fa-87698c55e2e5",
-                            ConcurrencyStamp = "b149c77a-036f-4dfe-be07-7c1083b19584",
+                            Id = "ed81230f-6549-4531-b226-e3a581bcc322",
+                            ConcurrencyStamp = "5d4c4d80-9906-4d8c-b8ed-48d00b3c9f53",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "06a1c0b7-78fa-4200-ae15-02ca838c6e94",
-                            ConcurrencyStamp = "4a833c83-6c77-491c-be0e-48768fd453e7",
+                            Id = "98e24ebe-c0d9-4939-9ce4-0603fa230fb2",
+                            ConcurrencyStamp = "3d6aad0e-fbb5-4d46-a188-05b1a39ec060",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         });
@@ -242,27 +242,6 @@ namespace MVC_ChiefsCorner.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("MVC_ChiefsCorner.Models.Extra", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Extras");
-                });
-
             modelBuilder.Entity("MVC_ChiefsCorner.Models.Menu", b =>
                 {
                     b.Property<int>("Id")
@@ -275,8 +254,10 @@ namespace MVC_ChiefsCorner.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImagePath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsAvailable")
+                        .HasColumnType("bit");
 
                     b.Property<int>("MenuCategoryId")
                         .HasColumnType("int");
@@ -285,6 +266,9 @@ namespace MVC_ChiefsCorner.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("PreparationTime")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
@@ -305,7 +289,6 @@ namespace MVC_ChiefsCorner.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("ImagePath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -318,24 +301,6 @@ namespace MVC_ChiefsCorner.Migrations
                     b.ToTable("MenuCategories");
                 });
 
-            modelBuilder.Entity("MVC_ChiefsCorner.Models.MenuExtra", b =>
-                {
-                    b.Property<int>("MenuId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ExtraId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
-                    b.HasKey("MenuId", "ExtraId");
-
-                    b.HasIndex("ExtraId");
-
-                    b.ToTable("MenuExtras");
-                });
-
             modelBuilder.Entity("MVC_ChiefsCorner.Models.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -344,8 +309,17 @@ namespace MVC_ChiefsCorner.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<int>("OrderStatus")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("OrderTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<decimal>("OrderTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -372,6 +346,9 @@ namespace MVC_ChiefsCorner.Migrations
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
                     b.Property<int>("Size")
                         .HasColumnType("int");
 
@@ -387,6 +364,18 @@ namespace MVC_ChiefsCorner.Migrations
             modelBuilder.Entity("MVC_ChiefsCorner.Models.AppUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<DateTime?>("BirthDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("Gender")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("AppUser");
                 });
@@ -453,25 +442,6 @@ namespace MVC_ChiefsCorner.Migrations
                     b.Navigation("MenuCategory");
                 });
 
-            modelBuilder.Entity("MVC_ChiefsCorner.Models.MenuExtra", b =>
-                {
-                    b.HasOne("MVC_ChiefsCorner.Models.Extra", "Extra")
-                        .WithMany("MenuExtras")
-                        .HasForeignKey("ExtraId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("MVC_ChiefsCorner.Models.Menu", "Menu")
-                        .WithMany("MenuExtras")
-                        .HasForeignKey("MenuId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Extra");
-
-                    b.Navigation("Menu");
-                });
-
             modelBuilder.Entity("MVC_ChiefsCorner.Models.Order", b =>
                 {
                     b.HasOne("MVC_ChiefsCorner.Models.AppUser", "User")
@@ -502,15 +472,8 @@ namespace MVC_ChiefsCorner.Migrations
                     b.Navigation("Order");
                 });
 
-            modelBuilder.Entity("MVC_ChiefsCorner.Models.Extra", b =>
-                {
-                    b.Navigation("MenuExtras");
-                });
-
             modelBuilder.Entity("MVC_ChiefsCorner.Models.Menu", b =>
                 {
-                    b.Navigation("MenuExtras");
-
                     b.Navigation("OrderMenus");
                 });
 

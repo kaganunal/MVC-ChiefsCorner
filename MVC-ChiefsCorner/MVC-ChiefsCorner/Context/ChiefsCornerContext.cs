@@ -20,8 +20,6 @@ namespace MVC_ChiefsCorner.Context
 
         public DbSet<MenuCategory> MenuCategories { get; set; }
         public DbSet<Menu> Menus { get; set; }
-        public DbSet<Extra> Extras { get; set; }
-        public DbSet<MenuExtra> MenuExtras { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderMenu> OrderMenus { get; set; }
         public Size Size { get; set; }
@@ -47,20 +45,6 @@ namespace MVC_ChiefsCorner.Context
                 .HasForeignKey(om => om.MenuId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<MenuExtra>()
-                .HasKey(me => new { me.MenuId, me.ExtraId });
-
-            modelBuilder.Entity<MenuExtra>()
-                .HasOne(me => me.Menu)
-                .WithMany(m => m.MenuExtras)
-                .HasForeignKey(me => me.MenuId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<MenuExtra>()
-                .HasOne(me => me.Extra)
-                .WithMany(e => e.MenuExtras)
-                .HasForeignKey(me => me.ExtraId)
-                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<AppUser>()
                 .HasMany(u => u.Orders)

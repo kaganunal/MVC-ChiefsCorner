@@ -5,24 +5,50 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1 class="text-center mb-3">Add to Order</h1>
+<h1 class="text-center mb-4">Add to Order</h1>
 <hr />
 
-<div class="text-center">
-    <h4>@Model.Name</h4>
-    <hr />
-    <form method="post" asp-action="AddToOrder" asp-controller="Menu">
-        <input type="hidden" name="menuId" value="@Model.Id" />
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <img src="@Html.DisplayFor(model => model.ImagePath)" class="img-fluid" height="400" width="400" draggable="true" />
+                <div class="card-body">
+                    <h4 class="card-title">@Model.Name</h4>
+                    <p class="card-text">@Model.Description</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Price: @Model.Price</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-        <label for="size">Select Size:</label>
-        <select id="size" name="size">
-            <option value="Small">Small</option>
-            <option value="Medium">Medium</option>
-            <option value="Large">Large</option>
-        </select>
 
-        <br />
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+            <form method="post" asp-action="AddToOrder" asp-controller="Menu">
+                <input type="hidden" name="menuId" value="@Model.Id" />
 
-        <button type="submit" class="btn btn-primary">Add to Order</button>
-    </form>
+                <div class="form-group">
+                    <label for="size">Select Size:</label>
+                    <select class="form-control" id="size" name="size">
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" class="form-control" id="quantity" name="quantity" min="1" value="1">
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Add to Order</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
+

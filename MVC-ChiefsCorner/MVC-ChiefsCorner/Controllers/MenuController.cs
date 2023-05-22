@@ -19,7 +19,7 @@ namespace MVC_ChiefsCorner.Controllers
         }
 
         //Kategorileri Listeleme
-
+        //TODO Yapılacak
         public async Task<IActionResult> Index()
         {
             var menuCategories = await _context.MenuCategories.ToListAsync();
@@ -43,90 +43,100 @@ namespace MVC_ChiefsCorner.Controllers
             return View(menu);
         }
 
-        public async Task<IActionResult> AddToOrder(Menu menu)
+        public async Task<IActionResult> AddToOrder(int id)
         {
+            var menu = _context.Menus.FirstOrDefault(x => x.Id == id);
             return View(menu);
         }
 
+
         [HttpPost]
-        [Authorize(Roles = "CUSTOMER")]
-        public async Task<IActionResult> AddToOrder(int menuId, Size size)
+        [Authorize]
+        public async Task<IActionResult> AddToOrder(int menuId, Size size, int quantity, int[] selectedExtras)
         {
             var user = await _userManager.GetUserAsync(User);
+            var selectedOrder = _context.Orders.Include(x => x.User).FirstOrDefault(x => x.User == user && x.OrderStatus == OrderStatus.Pending);
+            var menu = await _context.Menus.FirstOrDefaultAsync(m => m.Id == menuId);
 
             if (user != null)
             {
-                var menu = await _context.Menus.FirstOrDefaultAsync(m => m.Id == menuId);
-
-                if (menu != null)
+                if (selectedOrder != null)
                 {
-                    var orderMenu = new OrderMenu
+                    if (menu != null)
                     {
-                        Menu = menu,
-                        Size = size,
-                    };
 
-                    if (user.Orders == null)
-                    {
-                        user.Orders = new List<Order>();
-                    }
-
-                    var order = user.Orders.FirstOrDefault(); // Kullanıcının mevcut siparişini al veya yeni bir sipariş oluştur
-
-                    if (order == null)
-                    {
-                        order = new Order
+                        var orderMenu = new OrderMenu
                         {
-                            OrderTime = DateTime.Now,
-                            User = user,
-                            OrderMenus = new List<OrderMenu>()
+                            Menu = menu,
+                            Size = size,
+                            Quantity = quantity,
+                            Order = selectedOrder,
+                            OrderId = selectedOrder.Id,
+
                         };
 
-                        user.Orders.Add(order);
+                        _context.OrderMenus.Add(orderMenu);
+                        selectedOrder.CalculateQuantity();
+                        selectedOrder.CalculateOrderTotal();
+                        await _context.SaveChangesAsync();
+
+                        return RedirectToAction("Index", "Menu");
                     }
-
-                    order.OrderMenus.Add(orderMenu);
-
-                    await _context.SaveChangesAsync();
-
-                    return View(menu);
+                    else
+                    {
+                        return Content("Error: Menu not found.");
+                    }
                 }
                 else
                 {
-                    return Content("Error: Menu not found.");
+                    var order = new Order
+                    {
+                        UserId = user.Id,
+                        OrderStatus = OrderStatus.Pending,
+                        OrderTime = DateTime.Now,
+                        User = user,
+                        OrderMenus = new List<OrderMenu>()
+                    };
+
+                    if (menu != null)
+                    {
+                        var orderMenu = new OrderMenu
+                        {
+                            Menu = menu,
+                            Size = size,
+                            Quantity = quantity,
+                            Order = order,
+                            OrderId = order.Id
+                        };
+
+                        order.OrderMenus.Add(orderMenu);
+
+                    }
+
+                    order.CalculateQuantity();
+                    order.CalculateOrderTotal();
+                    _context.Orders.Add(order);
+                    await _context.SaveChangesAsync();
+
+                    return RedirectToAction("Index", "Menu");
                 }
             }
             else
             {
-                return RedirectToAction("Login", "Account");
+                return RedirectToAction("SignIn", "User");
             }
         }
 
 
 
-        [HttpPost]
-        // Menüyü siparişten silme
-        public async Task<IActionResult> RemoveFromOrder(int orderMenuId, int orderId)
-        {
-            var orderMenu = await _context.OrderMenus.FindAsync(orderMenuId);
-
-            if (orderMenu != null)
-            {
-                _context.OrderMenus.Remove(orderMenu);
-                await _context.SaveChangesAsync();
-            }
-
-            return RedirectToAction(nameof(OrderDetails), new { orderId });
-        }
-
-        public async Task<IActionResult> UpdateOrderMenu()
+        public async Task<IActionResult> UpdateOrder()
         {
             return View();
         }
 
         [HttpPost]
         // Siparişteki menüyü güncelleme
-        public async Task<IActionResult> UpdateOrderMenu(int orderMenuId, Size newSize, int orderId)
+        public async Task<IActionResult> UpdateOrder(int orderMenuId, Size newSize, int orderId)
         {
             var orderMenu = await _context.OrderMenus.FindAsync(orderMenuId);
 
@@ -155,5 +165,7 @@ namespace MVC_ChiefsCorner.Controllers
 
             return View(order);
         }
+
+
     }
 }

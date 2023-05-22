@@ -1,0 +1,57 @@
+﻿@model List<MVC_ChiefsCorner.Models.Menu>
+
+@{
+    ViewData["Title"] = "Menu";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="m-4">
+    <a asp-controller="AdminMenu" asp-action="Index"><i class="fa-solid fa-arrow-left fa-3x"></i></a>
+    <h1>Manage Menus</h1>
+</div>
+<hr/>
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+{
+    <div class="alert alert-success">
+        @ViewBag.SuccessMessage
+    </div>
+}
+<div class="text-center">
+    <a href="@Url.Action("AddMenu", "AdminMenu", new { categoryId = Model.FirstOrDefault()?.MenuCategoryId })" class="btn btn-success">Add Menu</a>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var menu in Model)
+            {
+                <tr>
+                    <td>@menu.Name</td>
+                    <td>@menu.Price</td>
+                    <td>
+                        <a href="@Url.Action("EditMenu", "AdminMenu", new { id = menu.Id })" class="btn btn-primary">Edit</a>
+                        <a href="@Url.Action("DeleteMenu", "AdminMenu", new { id = menu.Id })" class="btn btn-danger">Delete</a>
+                        <a href="@Url.Action("DetailsMenu", "AdminMenu", new { id = menu.Id })" class="btn btn-danger">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

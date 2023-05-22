@@ -4,9 +4,9 @@ namespace MVC_ChiefsCorner.Models.Authentication.SignUp
 {
     public class SignUpAppUser
     {
-        [Required(ErrorMessage = "Bu bilginin girilmesi zorunludur.")]
+        [Required]
         public string Username { get; set; }
-        [Required(ErrorMessage = "Bu bilginin girilmesi zorunludur.")]
+        [Required]
         public string Name { get; set; }
         public string Surname { get; set; }
         [EmailAddress]
@@ -16,7 +16,7 @@ namespace MVC_ChiefsCorner.Models.Authentication.SignUp
         public DateTime? BirthDate { get; set; }
         public Gender? Gender { get; set; }
         //[MinLength(8)]
-        [Required(ErrorMessage = "Bu bilginin girilmesi zorunludur.")]
+        [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 

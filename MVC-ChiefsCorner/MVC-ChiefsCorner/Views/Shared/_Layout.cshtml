@@ -1,10 +1,13 @@
-﻿
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUser> SignInManager
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Restoran - Bootstrap Restaurant Template</title>
+    <title>Chef's Corner</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -55,24 +58,34 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                    
                     <div class="navbar-nav ms-auto py-0 pe-4">
 
                         <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        <a class="nav-link" asp-area="" asp-controller="User" asp-action="SignUp">Sign Up</a>
-                        <a class="nav-link" asp-area="" asp-controller="User" asp-action="SignIn">Sign In</a>
-                        <a class="nav-link" asp-area="" asp-controller="User" asp-action="Logout">Log Out</a>
                         <a class="nav-link" asp-area="" asp-controller="Menu" asp-action="Index">Menu</a>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            if (User.IsInRole("Admin"))
+                            {
+                                <a class="nav-link" asp-area="Admin" asp-controller="AdminMenu" asp-action="Index">Admin's Panel</a>
+                            }
+                            <a class="nav-link" asp-area="" asp-controller="Cart" asp-action="Index"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="Profile"><i class="fa-solid fa-user fa-2x"></i></a>
+                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="Logout"><i class="fa-solid fa-right-from-bracket fa-2x"></i></a>
 
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        }
+                        else
+                        {
+                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="SignUp">Sign Up</a>
+                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="SignIn">Sign In</a>
+                        }
+
+
                     </div>
                     <a class="nav-link btn btn-primary py-2 px-4" asp-area="" asp-controller="Menu" asp-action="Index">Order</a>
+
+
                 </div>
             </nav>
 
@@ -95,9 +108,9 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1538/1. Sok, Isci Bloklari, Cankaya, Ankara, Turkey</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+90 505 475 5445</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@chefscorner.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>

@@ -1,0 +1,31 @@
+﻿@model MVC_ChiefsCorner.Models.Order
+
+@{
+    ViewData["Title"] = "Update Order Status";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div style="margin: 20px;">
+    <a asp-controller="AdminOrder" asp-action="Index" style="color: #333;"><i class="fa-solid fa-arrow-left fa-3x"></i></a>
+    <h1 style="margin-top: 20px;">Update Order Status</h1>
+</div>
+<hr />
+
+@if (!string.IsNullOrEmpty(TempData["ErrorMessage"] as string))
+{
+        <div style="margin: 20px; color: #fff; background-color: #dc3545; padding: 10px;">
+        @TempData["ErrorMessage"]
+        </div>
+}
+
+<form method="post" asp-action="UpdateOrderStatus" asp-controller="AdminOrder" style="margin: 20px;">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="OrderStatus" style="font-weight: bold;">Order Status</label>
+        <select asp-for="OrderStatus" asp-items="@(new SelectList(Enum.GetValues(typeof(MVC_ChiefsCorner.Models.OrderStatus))))" class="form-control" style="width: 300px; padding: 6px; background-color: gainsboro"></select>
+        <span asp-validation-for="OrderStatus" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary" style="padding: 8px 16px; border: none; color: #fff;">Update</button>
+</form>
