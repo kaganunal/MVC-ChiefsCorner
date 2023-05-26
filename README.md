@@ -21,16 +21,27 @@ Pagination: The application implements pagination to display a desired number of
 #Technical Details
 
 Framework: ASP.NET MVC
+
 Programming Language: C#
+
 Database: SQL Server
+
 Architecture: Layered architecture
+
 ORM: Entity Framework (Code-First)
+
 Authentication: ASP.NET Identity
+
 Front-End: Razor views, HTML, CSS, JavaScript
+
 Payment Integration: Credit card payment processing
+
 Pagination: Implemented for displaying a desired number of orders per page
+
 Email Confirmation: Confirmation emails are sent to users for account verification
+
 Admin Panel: Admin users have access to an admin panel for control operations
+
 Version Control: Git (GitHub)
 
 #Installation
